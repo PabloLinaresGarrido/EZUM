@@ -37,7 +37,7 @@ async function validateAddress(address) {
 
   // Si el balance es cero, entonces el address no existe
   if (balance === '0') {
-    alert('Address no encontrado');
+    alert('El balance de este address es 0');
   }
 
   // Si llegamos aquí, el address es válido y existe en la blockchain
